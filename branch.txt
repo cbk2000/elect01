@@ -1,0 +1,17 @@
+Penjelasan mengenai jenis-jenis branch dan cara menggunakannya
+
+Master Branch
+Bertindak sebagai default branch atau branch utama. Semua perubahan yang terjadi pada repository pada ahirnya akan di-merge ke branch ini. Branch ini tidak boleh dihapus dan tidak boleh di-rename.
+Penggunaan: Jadikan sebagai branch utama yang menyediakan fitur-fitur yang sudah stabil.
+
+Dev Branch
+Bertindak sebagai branch pengembangan. Branch ini digunakan untuk mengembangkan fitur-fitur baru. Branch ini juga tidak boleh dihapus dan tidak boleh di-rename. 
+Penggunaan: Proses pengembangan fitur baru dilakukan pada branch ini
+
+Release Branch
+Menyimpan versi rilis TARBALL terbaru yang sudah stabil.
+Penggunaan: Setiap kali ada versi rilis baru, maka branch ini akan menjadi branch yang akan menyimpan versi rilis tersebut.
+
+Hotfix Branch
+Digunakan untuk melakukan perbaikan pada versi rilis yang sudah ada. Branch ini akan di-merge ke branch master dan branch release.
+Penggunaan: Jika terdapat bug pada versi rilis yang sudah ada, maka perbaikan bug tersebut dilakukan pada branch ini.
